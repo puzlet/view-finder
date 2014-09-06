@@ -1,4 +1,1 @@
-view-finder
-===========
-
-Zoom horizontally according to a view-finder.
+![](https://github.com/puzlet/view-finder/blob/gh-pages/thumb.png
