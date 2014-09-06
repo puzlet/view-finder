@@ -1,0 +1,59 @@
+/* d3 styles */
+svg { 
+    height: 100%;
+    width: 100%;
+}
+
+svg {
+    font: 11pt sans-serif;
+}
+
+.area {
+    fill: black; /*steelblue;*/
+    clip-path: url(#clip);
+}
+
+.line {
+    clip-path: url(#clip);
+}
+
+.axes_text {
+    clip-path: url(#clip);
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.brush .extent {
+    stroke: #fff;
+    fill: #cfc;
+    fill-opacity: .5; /*.125;*/
+    shape-rendering: crispEdges;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+
+.grid {
+    fill: none;
+    shape-rendering: crispEdges;
+    stroke: #444;
+    stroke-width: 1px;
+    z-index: 1;
+}
+
+#test_graph_container {
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    height: 550px;
+    z-index: 10;
+}
+
+

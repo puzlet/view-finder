@@ -1,0 +1,9 @@
+[
+    "http://puzlet.org/puzlet/js/d3.min.js",
+    "http://puzlet.org/utility/array.coffee",
+    "plot.coffee",
+    "main.css",
+    "plot.css",
+    "main.html",
+    "main.coffee"
+]
